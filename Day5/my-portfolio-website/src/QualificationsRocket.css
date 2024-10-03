@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 200vh; /* Extend the height to allow scrolling */
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+    padding: 50px; /* Add padding for visual space */
+  }
+  
+  .qualifications {
+    width: 40%; /* Width of qualifications */
+    padding: 20px;
+    background-color: #fff; /* Background for qualifications */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px; /* Line thickness */
+    height: 70vh; /* Full height */
+    background-color: #3498db; /* Line color */
+  }
+  
+  .rocket {
+    position: absolute;
+    left: 50%;
+    bottom: 100%; /* Start above the viewport */
+    transform: translateX(-50%);
+    font-size: 2rem; /* Size of the rocket */
+    color: #e74c3c; /* Rocket color */
+    transition: bottom 0.1s; /* Smooth transition for movement */
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  h3 {
+    color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .additional-qualifications h3 {
+    margin-top: 20px;
+  }
+  
+  .right{
+    margin-top: 30%;
+  }

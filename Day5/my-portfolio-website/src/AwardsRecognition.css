@@ -1,0 +1,46 @@
+.awards-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.awards-list {
+    display: flex;
+    flex-direction: column; /* Stack awards vertically */
+}
+
+.award {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 15px 0; /* Margin between awards */
+    padding: 10px; /* Padding around each award */
+    background-color: #fff; /* Background for individual awards */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.award i {
+    font-size: 2rem; /* Icon size */
+    color: #3498db; /* Icon color */
+    margin-right: 15px; /* Space between icon and text */
+}
+
+.award-details {
+    flex-grow: 1; /* Allow details to take the remaining space */
+}
+
+.award-details h3 {
+    margin: 0; /* Remove default margin */
+    color: #2980b9; /* Title color */
+}
+
+.award-details p {
+    margin: 5px 0; /* Space between description and other elements */
+    color: #34495e; /* Description color */
+}
+
+.award-details span {
+    font-size: 0.9rem; /* Year font size */
+    color: #7f8c8d; /* Year color */
+}

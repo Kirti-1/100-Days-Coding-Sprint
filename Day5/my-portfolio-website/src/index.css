@@ -1,0 +1,117 @@
+#experience h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+#experience p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #34495e;
+}
+
+#experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#experience ul li {
+  margin-bottom: 8px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#experience em {
+  color: #7f8c8d;
+}
+#skills h2, #skills h3 {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+}
+
+#skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#skills ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#skills strong {
+  color: #3498db;
+}
+#projects {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.project {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.project img.thumbnail {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.project-info {
+  max-width: 600px;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.project-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+}
+#qualifications {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#qualifications h3 {
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+#qualifications p {
+    margin: 5px 0;
+    color: #34495e;
+}
+
+#qualifications ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#qualifications ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#qualifications em {
+    color: #7f8c8d;
+}

@@ -1,0 +1,44 @@
+#projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.project img.thumbnail {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.project-info {
+    max-width: 600px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.project-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    text-decoration: underline;
+}
